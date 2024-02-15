@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <meta charset="utf-8" />
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
+  <style>
+    /* html,
+    body {
+      position: relative;
+      height: 100%;
+    } */
+
+    /* body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    } */
+/* 
+    body {
+      background: #fff;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    } */
+
+    swiper-container {
+      width: 240px;
+      height: 320px;
+    }
+
+    swiper-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 18px;
+      font-size: 22px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    swiper-slide:nth-child(1n) {
+      background-color: rgb(206, 17, 17);
+    }
+
+    swiper-slide:nth-child(2n) {
+      background-color: rgb(0, 140, 255);
+    }
+
+    swiper-slide:nth-child(3n) {
+      background-color: rgb(10, 184, 111);
+    }
+
+    swiper-slide:nth-child(4n) {
+      background-color: rgb(211, 122, 7);
+    }
+
+    swiper-slide:nth-child(5n) {
+      background-color: rgb(118, 163, 12);
+    }
+
+    swiper-slide:nth-child(6n) {
+      background-color: rgb(180, 10, 47);
+    }
+
+    swiper-slide:nth-child(7n) {
+      background-color: rgb(35, 99, 19);
+    }
+
+    swiper-slide:nth-child(8n) {
+      background-color: rgb(0, 68, 255);
+    }
+
+    swiper-slide:nth-child(9n) {
+      background-color: rgb(218, 12, 218);
+    }
+
+    swiper-slide:nth-child(10n) {
+      background-color: rgb(54, 94, 77);
+    }
+    h1{
+
+
+
+text-align: center;
+margin-left: 30px;
+text-decoration: underline;
+
+    }
+  </style>
+</head>
+
+<body>
+
+    <h1 class="display-3" >
+        image slider with touch panel !
+    </h1>
+  <swiper-container class="mySwiper mt-5" effect="cards" grab-cursor="true" >
+    <swiper-slide> <img src="https://images.pexels.com/photos/1741205/pexels-photo-1741205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" style="width: 240px ; height: 320px;"></swiper-slide>
+    <swiper-slide><img src="https://images.pexels.com/photos/2071873/pexels-photo-2071873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" styl" alt="" style="width: 240px ; height: 320px;"></swiper-slide>
+    <swiper-slide><img src="https://images.pexels.com/photos/2255565/pexels-photo-2255565.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" style="width: 240px ; height: 320px;"></swiper-slide>
+    <swiper-slide><img src="https://images.pexels.com/photos/2071881/pexels-photo-2071881.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" style="width: 240px ; height: 320px;"></swiper-slide>
+    <swiper-slide><img src="https://images.pexels.com/photos/736532/pexels-photo-736532.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" style="width: 240px ; height: 320px;"></swiper-slide>
+    <swiper-slide><img src="https://images.pexels.com/photos/1687831/pexels-photo-1687831.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" style="width: 240px ; height: 320px;"></swiper-slide>
+    <swiper-slide><img src="https://images.pexels.com/photos/1643457/pexels-photo-1643457.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"  style="width: 240px ; height: 320px;"></swiper-slide>
+    <swiper-slide><img src="https://images.pexels.com/photos/2071882/pexels-photo-2071882.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" style="width: 240px ; height: 320px;"></swiper-slide>
+  </swiper-container>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+</body>
+
+</html>
